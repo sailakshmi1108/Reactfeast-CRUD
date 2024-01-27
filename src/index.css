@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+
+
+h1.text-primary {
+  color: rgb(161, 9, 108) !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.form-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.form-overlay form {
+  width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form button {
+  margin: 20px 5px;
+  padding: 5px;
+  width: 80px;
+}
+
+
+/* .btn-custom-primary {
+  background-color: violet;
+  color: white;
+} */
+
+
+.btn.btn-secondary.m-1.btn-violet {
+  background-color: rgb(161, 9, 108);
+  color: white;
+}
+.btn.btn-secondary.m-1.btn-blue {
+  background-color: rgb(29, 9, 161);
+  color: white;
+}
+
+.btn.btn-primary.m-1.btn-violet:focus {
+  outline-color: violet; 
+}
+
+.float-end {
+  float: end; 
+}
+

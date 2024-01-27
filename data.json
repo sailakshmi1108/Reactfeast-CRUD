@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "name": "paneer sandwitch",
+      "price": 250,
+      "category": "Veg",
+      "id": 1
+    },
+    {
+      "name": " Hyderabad Biriyani ",
+      "price": 300,
+      "category": "Veg",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Donne Chicken Biriyani ",
+      "price": 285,
+      "category": "Non-Veg"
+    },
+    {
+      "name": "Hyderabadi Chicken Biriyani",
+      "price": "379",
+      "category": "Non-Veg",
+      "id": 4
+    },
+    {
+      "name": "Gongura Chicken Biriyani",
+      "price": "399",
+      "category": "Non-Veg",
+      "id": 5
+    },
+    {
+      "name": "Mashroom Biriyani",
+      "price": "180",
+      "category": "Veg",
+      "id": 6
+    }
+  ]
+}
